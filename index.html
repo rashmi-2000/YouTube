@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+
+
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  
+ 
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
+  <link href="./assets/favicon.ico" rel="icon">
+  
+  <link href="" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+  <title>FnY tg</title>
+
+<link href="./main.550dcf66.css" rel="stylesheet">
+
+<link href="style.css" rel="stylesheet">
+
+</head>
+
+<body> <!-- Add your content of header -->
+<header>
+  <nav class="navbar-fixed-top">
+    <div class="topnav ">
+     
+      <a class=" activenav">
+        <div>
+        <img src="./assets/images/mashup-icon.svg" class="navbar-logo-img" alt="">
+        YouTube Downloader
+      </div>
+      </a>
+
+      <div id="myLinks">
+      
+        <a href="#" onclick=" myFunction()">Home</a>
+        <a href="#myBtn" onclick=" myFunction()">How to Download</a>
+        <a href="#features" onclick="myFunction()">Features</a>
+          
+        <a href="#about" onclick="myFunction() " >About Us</a>
+      </div>
+    
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars fa-2x" style="color: white;"></i>
+      </a>
+    </div>
+  </nav>
+
+</header>
+
+<!-- Add your site or app content here -->
+  <div class="hero-full-container background-image-container white-text-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 style="color:floralwhite; font-size: 2.95em; text-align: center;">YouTube Downloader</h1>
+          
+          <br>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6 offset-md-3 mt-5">
+ <div class="text-center">
+   
+      
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group form"  style="text-align: center;">
+              <label class="text-weight"><b style="color: #ffffff;">Paste Link Here:</b></label>
+              <br><br>
+              <div class="input-group">
+                <input type="text" name="link" id="youtube-id" placeholder="Enter YouTube video link" class="form-control link" required>
+                <span class="input-group-btn">
+                  <button id="youtube-id" class="btn  btn-block click-btn-down btn-grad1" type="submit">Proceed</button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+         <br>
+      </div>
+        <form class="form-download">
+          <div class="row">
+            <div class="col-md-12">
+              <div id='hide' style="display: none;" class="form-group ">
+                <label class="text-weight" style="color: white;"><b>Select Format:</b></label>
+                <select class="form-control formte" required>
+                  <option selected disabled>Select Format</option>
+                  <option value="mp3">MP3 Audio</option>
+                  <option value="m4a">M4A Audio</option>
+                  <option value="wav">waV Audio</option>
+                  <option value="360">360 MP4</option>
+                  <option value="480">480 MP4</option>
+                  <option value="720">720 MP4</option>
+                  <option value="1080">1080 MP4</option>
+                  <option value="4k">4k MP4</option>
+                  <option value="8k">8k MP4</option>
+                </select>
+              </div>
+              
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-12">
+              
+              <div class="form-group mt-4 download-video">
+                <!-- <button class="btn btn-success btn-block click-btn-down" type="submit">Click here to proceed</button> -->
+              </div>
+            </div>
+          </div>
+        </form>  
+      
+      <div class="text-center" style="align-items: center;">
+      <button type="button" class="btn btn-grad " id="myBtn">How to Download</button>
+              <br>
+              
+              <p style="color: #ffffff;"><b>Confused? Click on the above button and follow the steps.</b></p>
+             
+            </div>    
+      </div>
+    </div>
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+<div class="modal-content">
+ 
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+
+    </ol>
+  <div class="modal-body">
+    <span class="close">&times;</span>
+  <div class="carousel-inner">
+    <div class="item active">
+      <div style="text-align: center;">
+        <h3 style="color: floralwhite;">Step-1</h3>
+        
+      
+      <img src="./assets/images/s1.PNG" class="centerimg" style="width: 80%;">
+      <br>
+      <p style="color: rgb(0, 0, 0);"><b>Paste the link of your video in the given place.</b></p>
+    </div>
+  </div>
+    <div class="item">
+      <div style="text-align: center;">
+        <h3 style="color: floralwhite;">Step-2</h3>
+      <img src="./assets/images/s2.PNG" class="centerimg" style="width: 80%;">
+      <br>
+
+      <p style="color: rgb(0, 0, 0);"><b>Click on the PROCEED button.</b></p>
+    </div>
+     
+    </div>
+
+    <div class="item">
+      <div style="text-align: center;">
+        <h3  style="color: floralwhite;">Step-3</h3>
+      <img src="./assets/images/s3.PNG" class="centerimg" style="width: 80%;">
+      <br>
+
+      <p  style="color: rgb(0, 0, 0);"> <b>Click on the drop-down arrow & select the format in which you want to download from the drop-down list.</b></p>
+    </div>
+
+    </div>
+    <div class="item">
+      <div style="text-align: center;">
+        <h3 style="color: floralwhite;">Step-4</h3>
+      <img src="./assets/images/s4.PNG" class="centerimg" style="width: 80%;">
+      <br>
+
+      <p style="color: rgb(0, 0, 0);"><b>Click on Download button.</b></p>
+    </div>
+      
+    </div>
+    <div class="item">
+      <div style="text-align: center;">
+        <h3 style="color: floralwhite;">Step-5</h3>
+      <img src="./assets/images/s5.PNG" class="centerimg" style="width: 80%;">
+      <br>
+
+      <p style="color: rgb(0, 0, 0);"> <b>Wait for the download bar to load to 100% and then click on Download Now!</b></p>
+    </div>
+      
+    </div>
+    <br>
+    <br>
+    <br>
+  </div>
+  
+</div>
+
+  
+</div>
+  </div>
+  <!-- <div class="modal-footer">
+    <h3>Modal Footer</h3>
+  </div> -->
+</div>
+
+
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      
+
+    </div>
+    </div>
+   </div>
+  <div class="row" >
+    <div class="col-6">
+      
+        <h4 id="a" style="display: none; text-align :center; color: white;"><b>Video Preview</b></h4>
+      
+      <img id="ass" src="" class="centerimg">
+    </div>
+  </div>
+ 
+  <!-- <div class="section-container float">
+    <div class="container">
+      <div class="row section-container-spacer">
+        <div class="col-xs-12 col-md-8 col-md-offset-2  ">
+          <hr>
+          
+
+          <h1 class="text-center" style="color: #312f2f;">How to download ?</h1>
+          
+          <h2 class="text-center" style="color: #312f2f;">Follow these simple steps to download your videos!</h2>
+          <div class="section-container-spacer">
+            <p >Step 1 : Paste the link of your video in the given place</p>
+
+            <div class="col-xs-12 col-md-12 col-lg-12">
+              <img src="./assets/images/pasteLink.png" alt="" class="img-responsive reveal-content" data-action="zoom">
+            </div>
+            <hr>
+            <p>Step 2 : Select the format in which you want to download your video</p>
+
+            <div class="col-xs-12 col-md-12 col-lg-12">
+              <img src="./assets/images/Format.png" alt="" class="img-responsive reveal-content" data-action="zoom">
+            </div>
+            <hr>
+            <p>Step 3 : Click on proceed to download and then confirm your video and format</p>
+
+            <div class="col-xs-12 col-md-12 col-lg-12">
+              <img src="./assets/images/check.png" alt="" class="img-responsive reveal-content" data-action="zoom">
+            </div>
+            <hr>
+            <p>Step 4 : Click on Download Now once the video is ready and wait for a few seconds</p>
+            <div class="col-xs-12 col-md-12 col-lg-12">
+              <img src="./assets/images/Download.png" alt="" class="img-responsive reveal-content" data-action="zoom">
+            </div>
+            <hr>
+            <p></p>
+           
+           
+            
+            
+            
+            
+          </div>  
+          
+        </div>  
+      </div>
+    </div>
+  </div> -->
+
+  <br>
+<div id=features></div>
+<br><br>
+
+
+
+
+  <div class="about-section ">
+    <h1 style="color:white;" >Features</h1>
+    <p  style="color: floralwhite;"><em>Our Youtube MP3 converter allows you to convert YouTube videos to MP3 with just a few clicks. You can download MP3 music with many different quality such as: 128kbps, 320kbps, 64kbps, 96kbps, 192kbps, 256 kbps. Now you can easily convert thousands of videos from YouTube and save them to your collection of favorite songs. It has never been easier to convert YouTube to MP3.</em>
+   
+  </div>
+ 
+  <div class="section-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-8 col-md-offset-2">
+          <div class="text-center">
+<div class="content-slider">
+  <div class="slider">
+    <div class="mask">
+      <ul>
+        <li class="anim1">
+          <div ><h2 style="color: #ffda5f; text-align: center;">Full platforms supported</h2>
+            <img
+          src="./assets/images/f1.jpg" style="width:100%">
+          </div>
+          <div class="source" style="color: rgb(255, 255, 255);"><b>We support all device platforms. Easy to convert YouTube videos to MP3 files regardless of whether you
+            are using Windows, Mac or Linux, Android, iPhone.</b</div>
+        </li>
+        <li class="anim2">
+          <div ><h2 style="color: #ffda5f; text-align: center;">Full file format supported</h2>
+            <img src="./assets/images/f2.png" style="width:100%">
+          </div>
+          <div class="source" style="color: rgb(255, 255, 255);"><b>We support all video and audio formats conversion. You can easily convert YouTube videos to MP3, 3GP,
+            MP4, WMA, M4A, WEBM and MO formats, etc.</b</div>
+        </li>
+        <li class="anim3">
+          <div ><h2 style="color: #ffda5f; text-align: center;">Easily Downloadable</h2>
+            <img src="./assets/images/f3.png" style="width:100%">
+          </div>
+          <div class="source" style="color: rgb(255, 255, 255);"><b>No register accounts needed. All you need to do is to enter the video's url that you wish to convert &
+            download. Select the format then click "download" to start the converting process.</b</div>
+        </li>
+         <li class="anim4">
+          <div ><h2 style="color: #ffda5f; text-align: center;">Full platforms supported</h2>
+            <img
+          src="./assets/images/f1.jpg" style="width:100%">
+          </div>
+          <div class="source" style="color: rgb(255, 255, 255);"><b>We support all device platforms. Easy to convert YouTube videos to MP3 files regardless of whether you
+            are using Windows, Mac or Linux, Android, iPhone.</b</div>
+        </li>
+        <li class="anim5">
+          <div ><h2 style="color: #ffda5f; text-align: center;">Full file format supported</h2>
+            <img src="./assets/images/f2.png" style="width:100%">
+          </div>
+          <div class="source" style="color: rgb(255, 255, 255);"><b>We support all video and audio formats conversion. You can easily convert YouTube videos to MP3, 3GP,
+            MP4, WMA, M4A, FLV, WEBM and MO formats, etc.</b</div>
+        </li>
+        <li class="anim6">
+          <div ><h2 style="color: #ffda5f; text-align: center;">Easily Downloadable</h2>
+            <img src="./assets/images/f3.png" style="width:100%">
+          </div>
+          <div class="source" style="color: rgb(255, 255, 255);"><b>No register accounts needed. All you need to do is to enter the video's url that you wish to convert &
+            download. Select the format then click "download" to start the converting process.</b</div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div id="about"></div>
+  <div class="section-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-8 col-md-offset-2">
+          <div class="text-center">
+            <h2 style="color: #ffda5f;" >About Us</h2>
+            <p style="color: #ffffff;">YouTube Downloader is a Free to use website that helps YouTube users download
+              their favorite videos off YouTube and save them for offline viewing by generating direct links to the
+              YouTube video.
+
+              The videos are on YouTube's servers and not ours, we do not save videos on our servers nor do we keep
+              history of downloaded videos. Using YouTube Downloader is totally anonymous and safe.
+              <br>
+              If you have any questions or inquiries (suggestions, bug reports or advertisement proposals) please use
+              the form in the contact page.
+
+              Also, if you love our work, you can share it with your friends.
+            </p>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script type="text/javascript">
+    $(".click-btn-down").click(function(){
+        var link = $(".link").val();
+      var fromate = $(".formte").children("option:selected").val();
+      var src =""+link+"="+fromate+"";
+       downloadVideo(link,fromate);
+    });
+    function downloadVideo(link,fromate) {
+        $('.download-video').html('<iframe style="width:100%;height:60px;border:0;overflow:hidden;" scrolling="no" src="https://loader.to/api/button/?url='+link+'&f='+fromate+'"></iframe>');
+    }
+  </script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+    navbarFixedTopAnimation();
+  });
+</script>
+
+<footer class="footer-container white-text-container" style="padding-bottom: 10px;">
+  <div class="container">
+    <div class="row">
+
+
+      
+
+
+        
+          <div class="col-xs-12" style="text-align: center;">
+            <p>Have any queries? <a href="./contact.html"><em>Contact Us</em></a>
+             </p>
+            <br>
+              <a href="https://facebook.com/" class="social-round-icon white-round-icon fa-icon" title="">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="https://twitter.com/" class="social-round-icon white-round-icon fa-icon" title="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.linkedin.com/" class="social-round-icon white-round-icon fa-icon" title="">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              
+            
+          </div>
+        
+
+         
+          
+        
+
+
+      
+    </div>
+  </div>
+<br>
+<br>
+<br>
+
+
+  <p style="text-align: center; color: white; ">&copy; Copyright 2021 YouTube Downloader</p>
+</footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+    navActivePage();
+    scrollRevelation('.reveal');
+  });
+</script>
+
+ <script type="text/javascript" src="./main.0cf8b554.js"></script>
+
+<script>$('#youtube-id').on('change', function(){
+document.getElementById("hide").style.display = "block";
+document.getElementById("a").style.display = "block";
+
+// document.querySelectorAll("#hide").style.display = "block";
+            $this = $(this);
+          var hello;
+        if (newval = $this.val().match(/(\?|&)v=([^&#]+)/)) {
+
+              hello=newval.pop();
+
+        } else if (newval = $this.val().match(/(\.be\/)+([^\/]+)/)) {
+
+              hello=newval.pop();
+
+        } else if (newval = $this.val().match(/(\embed\/)+([^\/]+)/)) {
+
+              hello=newval.pop().replace('?rel=0','');
+        }
+
+       //$('#ass')
+        console.log(url);
+            //var hello = $('#ass').val();
+            var url ="https://img.youtube.com/vi/"+ hello +"/0.jpg";
+            $("#ass").attr("src",url);
+
+});
+</script>
+<script>
+  // Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+<script>
+  function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+</body>
+</html>

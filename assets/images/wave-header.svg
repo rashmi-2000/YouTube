@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1294" height="140" version="1.1" style=""><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"/>
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>wave_header</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="116.70788%" cy="110.133192%" fx="116.70788%" fy="110.133192%" r="147.799618%" gradientTransform="translate(1.167079,1.101332),scale(0.096080,1.000000),rotate(-174.580171),translate(-1.167079,-1.101332)" id="radialGradient-1">
+            <stop stop-color="#0069FF" offset="0%"/>
+            <stop stop-color="#0269FD" offset="2.91250472%"/>
+            <stop stop-color="#0369FC" offset="4.5053357%"/>
+            <stop stop-color="#0468FB" offset="6.00516035%"/>
+            <stop stop-color="#1165EF" offset="25.4821693%"/>
+            <stop stop-color="#4457C0" offset="100%"/>
+        </radialGradient>
+    <radialGradient cx="116.70788%" cy="110.133192%" fx="116.70788%" fy="110.133192%" r="147.799618%" gradientTransform="translate(1.167079,1.101332),scale(0.096080,1.000000),rotate(-174.580171),translate(-1.167079,-1.101332)" id="svg_1" x1="1" x2="1">
+            <stop stop-color="#0069FF" offset="0%"/>
+            <stop stop-color="#0269FD" offset="2.91250472%"/>
+            <stop stop-color="#0369FC" offset="4.5053357%"/>
+            <stop stop-color="#0468FB" offset="6.00516035%"/>
+            <stop stop-color="#1165EF" offset="25.4821693%"/>
+            <stop stop-color="#4457C0" offset="100%"/>
+        </radialGradient></defs>
+    
+<g class="currentLayer" style=""><title>Layer 1</title><g id="Ressource" stroke="none" stroke-width="1" fill="#ff0000" fill-rule="evenodd" class="" fill-opacity="1">
+        <g id="wave_header" fill="#ff0000">
+            <g id="Group-4-Copy" fill="#ff0000">
+                <path d="M-5,7.647753680000001e-15 L1295,0 C1294.84369,26.6567778 1294.84369,69.7043914 1295,129.142841 C985.95958,139.998481 1029.96657,114.449017 696.50349,123.93182 C363.040412,133.414622 385.605992,144.317251 -5,121.342804 C-4,88.1264067 -4,47.6788053 -5,7.647753680000001e-15 z" id="Wave" fill="#ff0000" opacity="0.15"/>
+                <path d="M1297,0 L372.29896699999995,0 L-4,0 C-4,60.1195162 -4,98.476269 -4,115.070259 C76.3948499999999,111.869944 150.18641000000002,107.19642 339.718429,111.869944 C529.250452,116.543469 596.176046,135.235999 871.6785279999999,117.515161 C1055.34685,105.701268 1197.120674,106.570567 1297,120.123056 L1297,0 z" id="Wave" fill="#ff0000"/>
+            </g>
+        </g>
+    </g></g></svg>

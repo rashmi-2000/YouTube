@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1300" height="499" version="1.1"><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"/>
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>wave_background</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="116.70788%" cy="110.133192%" fx="116.70788%" fy="110.133192%" r="147.799618%" gradientTransform="translate(1.167079,1.101332),scale(0.357923,1.000000),rotate(-160.534454),translate(-1.167079,-1.101332)" id="radialGradient-1">
+            <stop stop-color="#0069FF" offset="0%"/>
+            <stop stop-color="#0269FD" offset="2.91250472%"/>
+            <stop stop-color="#0369FC" offset="4.5053357%"/>
+            <stop stop-color="#0468FB" offset="6.00516035%"/>
+            <stop stop-color="#1165EF" offset="25.4821693%"/>
+            <stop stop-color="#4457C0" offset="100%"/>
+        </radialGradient>
+    <radialGradient cx="116.70788%" cy="110.133192%" fx="116.70788%" fy="110.133192%" r="147.799618%" gradientTransform="translate(1.167079,1.101332),scale(0.357923,1.000000),rotate(-160.534454),translate(-1.167079,-1.101332)" id="svg_1" x1="1" x2="1">
+            <stop stop-color="#0069FF" offset="0%"/>
+            <stop stop-color="#0269FD" offset="2.91250472%"/>
+            <stop stop-color="#0369FC" offset="4.5053357%"/>
+            <stop stop-color="#0468FB" offset="6.00516035%"/>
+            <stop stop-color="#1165EF" offset="25.4821693%"/>
+            <stop stop-color="#4457C0" offset="100%"/>
+        </radialGradient></defs>
+    
+<g class="currentLayer" style=""><title>Layer 1</title><g id="Ressource" stroke="none" stroke-width="1" fill="#ff0000" fill-rule="evenodd" class="selected" fill-opacity="1">
+        <g id="wave_background" fill="#ff0000">
+            <g id="Group-4" fill="#ff0000">
+                <path d="M0,-0.787401556968689 L1300,-0.7874015569687174 C1299.84369,98.27844504303131 1299.84369,258.2583314430313 1300,479.1522584430313 C939.379367,521.5012904430313 978.893507,438.9074424430313 650,450.16461244303133 C321.106493,461.4217834430313 306.589562,510.4130824430313 0,450.16461244303133 C1,326.72094044303134 1,176.4036024430313 0,-0.787401556968689 z" id="Wave" fill="#ff0000" opacity="0.15"/>
+                <path d="M1301.999963781875,-0.787401556968689 L377.29947742187505,-0.787401556968689 L1.000732421875,-0.787401556968689 C1.000732421875,223.1735414430313 1.000732421875,366.0624914430313 1.000732421875,427.8794484430313 C81.39553242187503,415.9574394430313 155.18705242187502,398.5473374430313 344.71895842187496,415.9574394430313 C534.250869421875,433.3675424430313 601.176424421875,503.0021134430313 876.678743421875,436.9873484430313 C1060.346956421875,392.9775054430313 1202.120696421875,396.2158704430313 1301.999963781875,446.7024434430313 L1301.999963781875,-0.787401556968689 z" id="Wave" fill="#ff0000" transform=""/>
+            </g>
+        </g>
+    </g></g></svg>

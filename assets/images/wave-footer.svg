@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1294" height="216" version="1.1"><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"/>
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>wave_footer</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="116.70788%" cy="110.133192%" fx="116.70788%" fy="110.133192%" r="147.799618%" gradientTransform="translate(1.167079,1.101332),scale(0.166924,1.000000),rotate(-170.639853),translate(-1.167079,-1.101332)" id="radialGradient-1">
+            <stop stop-color="#0069FF" offset="0%"/>
+            <stop stop-color="#0269FD" offset="2.91250472%"/>
+            <stop stop-color="#0369FC" offset="4.5053357%"/>
+            <stop stop-color="#0468FB" offset="6.00516035%"/>
+            <stop stop-color="#1165EF" offset="25.4821693%"/>
+            <stop stop-color="#4457C0" offset="100%"/>
+        </radialGradient>
+    </defs>
+    
+<g class="currentLayer" style=""><title>Layer 1</title><g id="Ressource" stroke="none" stroke-width="1" fill="#ff0000" fill-rule="evenodd" class="selected" fill-opacity="1">
+        <g id="wave_footer" fill="#ff0000" fill-opacity="1">
+            <path d="M0.7874015569686892,212.06299221515656 L1294.7874015569687,212.06299221512367 L1294.7874015569687,-3.937007784843445 C1079.2642915569686,6.013094215156542 863.7633955569687,10.98814521515655 648.2847115569687,10.98814521515655 C432.8060265569687,10.98814521515655 216.9735905569687,6.013094215156542 0.787401556968755,-3.937007784843445 L0.7874015569686892,212.06299221515656 z" id="Image-Hero-Copy" fill="#ff0000" fill-opacity="1"/>
+        </g>
+    </g></g></svg>
