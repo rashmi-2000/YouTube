@@ -36,7 +36,7 @@ background-image: url("./assets/images/pexels-miguel-á-padriñán-255379.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  /* backdrop-filter: blur(9px); */
+  backdrop-filter: blur(3px);
   height: 100%;
   width: 100%;
   position: relative;
