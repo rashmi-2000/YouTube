@@ -7,9 +7,23 @@
 /* background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%); */
 /* background-color: #FFFFFF;
 background-image: linear-gradient(0deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%); */
-background-color: #000000;
-background-image: linear-gradient(0deg, #000000 0%, #540101 50%, #000000 100%);
-
+/* background-color: #000000;
+background-image: linear-gradient(0deg, #000000 0%, #540101 50%, #000000 100%); */
+/* background: #833ab4; 
+background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  
+background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);   instagram */
+/* background: #780206;  
+background: -webkit-linear-gradient(to bottom, #061161, #780206);  
+background: linear-gradient(to bottom, #061161, #780206);  */
+ /* background: #05171f;  
+background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  
+background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  */
+/*background: #23074d;  
+background: -webkit-linear-gradient(to bottom, #cc5333, #23074d);  
+background: linear-gradient(to bottom, #cc5333, #23074d);  */
+background: #DBE6F6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #C5796D, #DBE6F6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #C5796D, #DBE6F6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
   /* background-color: #d3d3d3 !important; */
@@ -496,7 +510,9 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  margin-top:auto;
+  margin-bottom: auto;
+  width: 40%;
 }
 
 .leftcontrol {
@@ -730,7 +746,7 @@ img {vertical-align: middle;}
 
   
    #myBtn{
-    margin-left: 35%;
+    /* margin-left: 35%; */
   
    }
   .btn-grad {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%) !important}
