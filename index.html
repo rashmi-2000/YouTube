@@ -90,7 +90,7 @@
               <div class="input-group">
                 <input type="text" name="link" id="youtube-id" placeholder="Enter YouTube video link" class="form-control link" required>
                 <span class="input-group-btn">
-                  <button id="youtube-id" class="btn  btn-block click-btn-down btn-grad1" type="submit">Proceed</button>
+                  <button id="youtube-id" class="btn btn-block click-btn-down btn-grad1" type="submit">Proceed</button>
                 </span>
               </div>
             </div>
@@ -109,7 +109,6 @@
                   <option selected disabled>Select Format</option>
                   <option value="mp3">MP3 Audio</option>
                   <option value="m4a">M4A Audio</option>
-                  <option value="wav">waV Audio</option>
                   <option value="360">360 MP4</option>
                   <option value="480">480 MP4</option>
                   <option value="720">720 MP4</option>
@@ -125,7 +124,7 @@
           <div class="row">
             <div class="col-md-12">
               
-              <div class="form-group mt-4 download-video">
+              <div id="aa" class="form-group mt-4 download-video" style="display: none;">
                 <!-- <button class="btn btn-success btn-block click-btn-down" type="submit">Click here to proceed</button> -->
               </div>
             </div>
@@ -246,53 +245,7 @@
     </div>
   </div>
  
-  <!-- <div class="section-container float">
-    <div class="container">
-      <div class="row section-container-spacer">
-        <div class="col-xs-12 col-md-8 col-md-offset-2  ">
-          <hr>
-          
 
-          <h1 class="text-center" style="color: #312f2f;">How to download ?</h1>
-          
-          <h2 class="text-center" style="color: #312f2f;">Follow these simple steps to download your videos!</h2>
-          <div class="section-container-spacer">
-            <p >Step 1 : Paste the link of your video in the given place</p>
-
-            <div class="col-xs-12 col-md-12 col-lg-12">
-              <img src="./assets/images/pasteLink.png" alt="" class="img-responsive reveal-content" data-action="zoom">
-            </div>
-            <hr>
-            <p>Step 2 : Select the format in which you want to download your video</p>
-
-            <div class="col-xs-12 col-md-12 col-lg-12">
-              <img src="./assets/images/Format.png" alt="" class="img-responsive reveal-content" data-action="zoom">
-            </div>
-            <hr>
-            <p>Step 3 : Click on proceed to download and then confirm your video and format</p>
-
-            <div class="col-xs-12 col-md-12 col-lg-12">
-              <img src="./assets/images/check.png" alt="" class="img-responsive reveal-content" data-action="zoom">
-            </div>
-            <hr>
-            <p>Step 4 : Click on Download Now once the video is ready and wait for a few seconds</p>
-            <div class="col-xs-12 col-md-12 col-lg-12">
-              <img src="./assets/images/Download.png" alt="" class="img-responsive reveal-content" data-action="zoom">
-            </div>
-            <hr>
-            <p></p>
-           
-           
-            
-            
-            
-            
-          </div>  
-          
-        </div>  
-      </div>
-    </div>
-  </div> -->
 
   <br>
 <div id=features></div>
@@ -351,13 +304,8 @@
           </div>
           <div class="source" style="color: rgb(0, 0, 0);"><b>YouTube downloader is completely free to use. No registration required. Download and enjoy your audios & videos for FREE!</b></div>
         </li>
-        <!-- <li class="anim6">
-          <div ><h2 style="color: #020202; text-align: center;">Safe to use</h2>
-            <img src="./assets/images/f3.png" style="width:100%">
-          </div>
-          <div class="source" style="color: rgb(0, 0, 0);"><b>No register accounts needed. All you need to do is to enter the video's url that you wish to convert &
-            download. Select the format then click "download" to start the converting process.</b</div>
-        </li> -->
+      
+        
       </ul>
     </div>
   </div>
@@ -389,25 +337,7 @@
     </div>
   </div>
 
-
-
-  <script type="text/javascript">
-    $(".click-btn-down").click(function(){
-        var link = $(".link").val();
-      var fromate = $(".formte").children("option:selected").val();
-      var src =""+link+"="+fromate+"";
-       downloadVideo(link,fromate);
-    });
-    function downloadVideo(link,fromate) {
-        $('.download-video').html('<iframe style="width:100%;height:60px;border:0;overflow:hidden;" scrolling="no" src="https://loader.to/api/button/?url='+link+'&f='+fromate+'"></iframe>');
-    }
-  </script>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function (event) {
-    navbarFixedTopAnimation();
-  });
-</script>
+ 
 
 <footer class="footer-container white-text-container" style="padding-bottom: 10px;">
   <div class="container">
@@ -452,6 +382,45 @@
   <p style="text-align: center; color: white; ">&copy; Copyright 2021 YouTube Downloader</p>
 </footer>
 
+
+
+
+
+ 
+<script type="text/javascript">
+  $("#hide").click(function(){
+
+  $('#hide option').each(function() {
+  if($(this).is(':selected')) { 
+    var link = $(".link").val();
+    var fromate = $(".formte").children("option:selected").val();
+    var src =""+link+"="+fromate+"";
+     downloadVideo(link,fromate); }
+  function downloadVideo(link,fromate) {
+      $('.download-video').html('<iframe style="width:100%;height:60px;border:0;overflow:hidden;" scrolling="no" src="https://loader.to/api/button/?url='+link+'&f='+fromate+'"></iframe>');
+   document.getElementById("aa").style.display = "block"; }
+}); });
+
+</script> 
+
+
+
+
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function (event) {
+  navbarFixedTopAnimation();
+});
+</script>
+
+
+
+
+
+
+
 <script>
   document.addEventListener("DOMContentLoaded", function (event) {
     navActivePage();
@@ -459,14 +428,25 @@
   });
 </script>
 
- <script type="text/javascript" src="./main.0cf8b554.js"></script>
+ 
 
-<script>$('#youtube-id').on('change', function(){
+
+
+<script type="text/javascript" src="./main.0cf8b554.js"></script>
+
+
+
+
+
+
+
+<script type="text/javascript">
+  $('#youtube-id').on('change', function(){
+
 document.getElementById("hide").style.display = "block";
-document.getElementById("a").style.display = "block";
 
-// document.querySelectorAll("#hide").style.display = "block";
-            $this = $(this);
+
+  $this = $(this);
           var hello;
         if (newval = $this.val().match(/(\?|&)v=([^&#]+)/)) {
 
@@ -480,15 +460,20 @@ document.getElementById("a").style.display = "block";
 
               hello=newval.pop().replace('?rel=0','');
         }
-
+      
        //$('#ass')
-        console.log(url);
-            //var hello = $('#ass').val();
-            var url ="https://img.youtube.com/vi/"+ hello +"/0.jpg";
+       
+            var url ="https://img.youtube.com/vi/"+ hello +"/0.jpg"; console.log(url);
             $("#ass").attr("src",url);
+      });
 
-});
+
 </script>
+
+
+
+
+
 <script>
   // Get the modal
 var modal = document.getElementById("myModal");
@@ -516,6 +501,11 @@ window.onclick = function(event) {
   }
 }
 </script>
+
+
+
+
+
 <script>
   function myFunction() {
   var x = document.getElementById("myLinks");
@@ -526,5 +516,12 @@ window.onclick = function(event) {
   }
 }
 </script>
+
+
+
+
+
+
+
 </body>
 </html>
